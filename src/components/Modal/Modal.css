@@ -1,0 +1,64 @@
+.Modal {
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+  width: 50%;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px black;
+  padding: 30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+}
+
+.Modal_close {
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../assets/img/clear.png");
+  background-position: 50% 50%;
+  background-size: 20px;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  top: 3%;
+  right: 5%;
+  cursor: pointer;
+}
+
+.Modal_title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #3d5170;
+  margin-bottom: 20px;
+}
+
+.Modal_row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Modal_input {
+  width: 48%;
+  padding: 15px;
+}
+
+.Modal_textArea {
+  width: 100%;
+}
+
+.Modal_button_wrapper {
+  text-align: right;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 576px) {
+  .Modal {
+    width: 90%;
+  }
+}

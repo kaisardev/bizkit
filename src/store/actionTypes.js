@@ -1,0 +1,9 @@
+export const AUTH_SUCCESS = "AUTH_SUCCESS";
+export const AUTH_ERROR = "AUTH_ERROR";
+export const FETCH_COMPANIES_SUCCESS = "FETCH_COMPANIES_SUCCESS";
+export const FETCH_COMPANIES_ERROR = "FETCH_COMPANIES_ERROR";
+export const ADD_COMPANY = "ADD_COMPANY";
+export const OPEN_MODAL = "OPEN_MODAL";
+export const CLOSE_MODAL = "CLOSE_MODAL";
+export const GET_FULL_COMPANY = "GET_FULL_COMPANY";
+export const LOGOUT = "LOGOUT";

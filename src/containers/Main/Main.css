@@ -1,0 +1,14 @@
+.Main {
+    position: relative;
+}
+
+.Main_content {
+    margin-left: 250px;
+}
+
+.Table_wrapper {
+    background: #E5E5E5;
+    height: calc(100vh - 76px);
+    padding: 47px 69px;
+}
+
